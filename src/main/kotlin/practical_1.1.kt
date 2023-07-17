@@ -10,5 +10,13 @@ fun main(){
     var i : Byte = 5
 
 
-    println("$a, $b, $c, $d, $e, $f, $g, $h, $i")
+    println("Integer Value : $a")
+    println("Float Value : $b")
+    println("Character Value : $c")
+    println("String Value : $d")
+    println("Boolean Value : $e")
+    println("Double Value : $f")
+    println("Long Value : $g")
+    println("Short Value : $h")
+    println("Byte Value : $i")
 }
