@@ -2,11 +2,11 @@ import kotlin.reflect.typeOf
 
 fun main(){
     var a : Int = 5
-    a.toString()
-    print("$a as String")
+    var b : Double = 5.479
+    var c : String = "74"
 
-    a.toDouble()
-    print("$a as Double")
-
-    println("$a")
+    println("Integer Value : $a")
+    println("Double Value : ${a.toDouble()}")        // Integer to Double
+    println("String Value : ${b.toString()}")        // Double to String
+    println("Integer Value : ${c.toInt()}")          // String to Integer
 }
