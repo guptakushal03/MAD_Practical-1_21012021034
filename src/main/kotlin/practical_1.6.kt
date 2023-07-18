@@ -5,32 +5,24 @@ fun main(){
     var a = readLine()!!.toInt()
     var b = readLine()!!.toInt()
 
-    add(a, b)
-    sub(a, b)
-    mult(a, b)
-    div(a, b)
+    println("Summation of $a and $b is " + add(a, b))
+    println("Difference of $a and $b is " + sub(a, b))
+    println("Multiplication of $a and $b is " + mult(a, b))
+    println("Division of $a and $b is " + div(a, b))
 }
 
 fun add(a: Int, b: Int): Int {
-    var sum = a + b
-    println("Sum of $a and $b is $sum")
-    return 0
+    return a + b
 }
 
 fun sub(a: Int, b: Int): Int {
-    var subt = a - b
-    println("Difference of $a and $b is $subt")
-    return 0
+    return a - b
 }
 
 fun mult(a: Int, b: Int): Int {
-    var mul = a * b
-    println("Multiplication of $a and $b is $mul")
-    return 0
+    return a * b
 }
 
 fun div(a: Int, b: Int): Int {
-    var div = a / b
-    println("Division of $a and $b is $div")
-    return 0
+    return a / b
 }
