@@ -1,5 +1,3 @@
-// By using a user defined function perform all arithmetic operations
-
 fun main(){
     println("Enter two numbers a and b : ")
     var a = readLine()!!.toInt()
